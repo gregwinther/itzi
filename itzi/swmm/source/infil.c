@@ -22,7 +22,7 @@
 #define _CRT_SECURE_NO_DEPRECATE
 
 #include <math.h>
-#include "malloc.h"
+// #include "malloc.h"
 #include "stdlib.h"
 #include "headers.h"
 #include "infil.h"

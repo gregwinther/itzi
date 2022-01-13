@@ -66,7 +66,7 @@ REQUIRES = ['pyinstrument', 'networkx == 1.11', 'grass-session']
 # Set arguments according to compiler
 copt =  {'msvc': ['/openmp', '/Ox'],
          'mingw32' : ['-O3', '-w', '-fopenmp', '-lgomp', '-lpthread'],
-         'unix' : ['-O3', '-w', '-fopenmp']
+         'unix' : ['-O3', '-w', '-Xpreprocessor', '-fopenmp']
          }
 lopt =  {'mingw32' : ['-lgomp', '-lpthread'],
          'unix' : ['-lgomp']
